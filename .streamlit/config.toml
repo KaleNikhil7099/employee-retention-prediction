@@ -1,7 +1,7 @@
 [theme]
 base = "light"
 primaryColor = "#0d9488"
-backgroundColor = "#f0f4f8"
+backgroundColor = "#f1f5f9"
 secondaryBackgroundColor = "#ffffff"
 textColor = "#0f172a"
 font = "sans serif"
@@ -10,6 +10,9 @@ font = "sans serif"
 headless = true
 port = 8501
 enableCORS = false
+enableXsrfProtection = false
 
 [browser]
 gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
