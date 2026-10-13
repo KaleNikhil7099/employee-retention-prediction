@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Secrets — NEVER commit these
+.env.local
+*.env
+secrets.toml
+
+# Model artifacts (large binary files — optional, include if small enough)
+# models/pipeline.pkl
+
+# Database (contains user data — do not commit)
+data/retention_ai.db
+
+# Raw dataset (check Kaggle redistribution terms)
+data/WA_Fn-UseC_-HR-Employee-Attrition.csv
+
+# Streamlit cache
+.streamlit/cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

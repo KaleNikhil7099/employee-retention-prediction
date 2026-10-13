@@ -1,0 +1,15 @@
+# Exclude from Docker image
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+venv/
+.venv/
+.env
+*.env
+.idea/
+.vscode/
+*.md.bak
+data/retention_ai.db
+.streamlit/cache/
