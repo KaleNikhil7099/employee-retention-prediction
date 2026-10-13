@@ -1,0 +1,241 @@
+{
+  "best_model": "Logistic Regression",
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.7517,
+      "precision": 0.3617,
+      "recall": 0.7234,
+      "f1_score": 0.4823,
+      "roc_auc": 0.8051,
+      "confusion_matrix": [
+        [
+          187,
+          60
+        ],
+        [
+          13,
+          34
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.935,
+          "recall": 0.757085020242915,
+          "f1-score": 0.8366890380313199,
+          "support": 247.0
+        },
+        "1": {
+          "precision": 0.3617021276595745,
+          "recall": 0.723404255319149,
+          "f1-score": 0.48226950354609927,
+          "support": 47.0
+        },
+        "accuracy": 0.7517006802721088,
+        "macro avg": {
+          "precision": 0.6483510638297872,
+          "recall": 0.740244637781032,
+          "f1-score": 0.6594792707887096,
+          "support": 294.0
+        },
+        "weighted avg": {
+          "precision": 0.8433503401360545,
+          "recall": 0.7517006802721088,
+          "f1-score": 0.7800301328585124,
+          "support": 294.0
+        }
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.8231,
+      "precision": 0.4194,
+      "recall": 0.2766,
+      "f1_score": 0.3333,
+      "roc_auc": 0.7855,
+      "confusion_matrix": [
+        [
+          229,
+          18
+        ],
+        [
+          34,
+          13
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.870722433460076,
+          "recall": 0.9271255060728745,
+          "f1-score": 0.8980392156862745,
+          "support": 247.0
+        },
+        "1": {
+          "precision": 0.41935483870967744,
+          "recall": 0.2765957446808511,
+          "f1-score": 0.3333333333333333,
+          "support": 47.0
+        },
+        "accuracy": 0.8231292517006803,
+        "macro avg": {
+          "precision": 0.6450386360848768,
+          "recall": 0.6018606253768628,
+          "f1-score": 0.615686274509804,
+          "support": 294.0
+        },
+        "weighted avg": {
+          "precision": 0.7985650288571212,
+          "recall": 0.8231292517006803,
+          "f1-score": 0.8077631052420968,
+          "support": 294.0
+        }
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.8367,
+      "precision": 0.4615,
+      "recall": 0.1277,
+      "f1_score": 0.2,
+      "roc_auc": 0.8042,
+      "confusion_matrix": [
+        [
+          240,
+          7
+        ],
+        [
+          41,
+          6
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8540925266903915,
+          "recall": 0.97165991902834,
+          "f1-score": 0.9090909090909091,
+          "support": 247.0
+        },
+        "1": {
+          "precision": 0.46153846153846156,
+          "recall": 0.1276595744680851,
+          "f1-score": 0.2,
+          "support": 47.0
+        },
+        "accuracy": 0.8367346938775511,
+        "macro avg": {
+          "precision": 0.6578154941144265,
+          "recall": 0.5496597467482126,
+          "f1-score": 0.5545454545454546,
+          "support": 294.0
+        },
+        "weighted avg": {
+          "precision": 0.7913372849824298,
+          "recall": 0.8367346938775511,
+          "f1-score": 0.7957328385899815,
+          "support": 294.0
+        }
+      }
+    }
+  },
+  "feature_importances": {
+    "num__Age": 0.284777,
+    "num__DailyRate": 0.19708,
+    "num__DistanceFromHome": 0.266485,
+    "num__Education": 0.007712,
+    "num__EnvironmentSatisfaction": 0.37125,
+    "num__HourlyRate": 0.053604,
+    "num__JobInvolvement": 0.28997,
+    "num__JobLevel": 0.012451,
+    "num__JobSatisfaction": 0.332721,
+    "num__MonthlyIncome": 0.275655,
+    "num__MonthlyRate": 0.013735,
+    "num__NumCompaniesWorked": 0.36746,
+    "num__PercentSalaryHike": 0.194363,
+    "num__PerformanceRating": 0.106576,
+    "num__RelationshipSatisfaction": 0.197605,
+    "num__StockOptionLevel": 0.195082,
+    "num__TotalWorkingYears": 0.364474,
+    "num__TrainingTimesLastYear": 0.12948,
+    "num__WorkLifeBalance": 0.182114,
+    "num__YearsAtCompany": 0.175658,
+    "num__YearsInCurrentRole": 0.230154,
+    "num__YearsSinceLastPromotion": 0.406682,
+    "num__YearsWithCurrManager": 0.393738,
+    "cat__BusinessTravel": 0.040787,
+    "cat__Department": 0.632701,
+    "cat__EducationField": 0.016361,
+    "cat__Gender": 0.215182,
+    "cat__JobRole": 0.065231,
+    "cat__MaritalStatus": 0.351275,
+    "cat__OverTime": 1.224845
+  },
+  "feature_names": [
+    "Age",
+    "BusinessTravel",
+    "DailyRate",
+    "Department",
+    "DistanceFromHome",
+    "Education",
+    "EducationField",
+    "EnvironmentSatisfaction",
+    "Gender",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobRole",
+    "JobSatisfaction",
+    "MaritalStatus",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "OverTime",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "categorical_cols": [
+    "BusinessTravel",
+    "Department",
+    "EducationField",
+    "Gender",
+    "JobRole",
+    "MaritalStatus",
+    "OverTime"
+  ],
+  "numeric_cols": [
+    "Age",
+    "DailyRate",
+    "DistanceFromHome",
+    "Education",
+    "EnvironmentSatisfaction",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobSatisfaction",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "training_samples": 1176,
+  "test_samples": 294,
+  "class_distribution": {
+    "train_attrition_rate": 16.16,
+    "test_attrition_rate": 15.99
+  }
+}

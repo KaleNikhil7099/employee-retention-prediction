@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+# Include models/pipeline.pkl and metrics.json (tracked)
 *.egg-info/
 dist/
 build/
